@@ -2,10 +2,11 @@
 Stefan Petrovski 206023
 <hr>
 
-<h2> Control flow graph </h2>
+<h2> 2. Control flow graph </h2>
 
 
-![image](https://github.com/stefanpetrovski1/SI_2023_lab2_206023/assets/114780490/cb2d3f23-e3ae-4e0e-abd2-3cb8f693ab3f)
+![image](https://github.com/stefanpetrovski1/SI_2023_lab2_206023/assets/114780490/1fc635be-d006-45ba-984f-4dda8c5d2493)
+
 
 
 
