@@ -19,26 +19,12 @@ public class SILab2Test {
         });
         Assertions.assertEquals("Mandatory information missing!", ex.getMessage());
 
-
-        ex = Assertions.assertThrows(RuntimeException.class, () -> {
-            SILab2.function(user, users);
-        });
-
-        Assertions.assertEquals("Mandatory information missing!", ex.getMessage());
-
-
-        ex = Assertions.assertThrows(RuntimeException.class, () -> {
-            SILab2.function(user, users);
-        });
-
-        Assertions.assertEquals("Mandatory information missing!", ex.getMessage());
     }
 
     @Test
     public void passwordIsNullTest() {
         RuntimeException ex;
-        User user = new User("stefan206023finki", null, "anything");
-        ;
+        User user = new User("stefan206023finki", null, "email");
         List<User> users = null;
 
         // user is not null, password is null, email is anything
@@ -52,7 +38,6 @@ public class SILab2Test {
     public void emailIsNullTest() {
         RuntimeException ex;
         User user = new User("stefan206023finki", "password", null);
-        ;
         List<User> users = null;
 
         // user is not null, password is not null, email is null
