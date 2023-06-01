@@ -5,8 +5,9 @@ Stefan Petrovski 206023
 <h2> 2. Control flow graph </h2>
 
 
-![image](https://github.com/stefanpetrovski1/SI_2023_lab2_206023/assets/114780490/1fc635be-d006-45ba-984f-4dda8c5d2493)
+// kodot moze da se najde vo src/main/java
 
+![si_lab2_206023_cfg.drawio (1).png](si_lab2_206023_cfg.drawio%20%281%29.png)
 
 
 
